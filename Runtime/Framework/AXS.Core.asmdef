@@ -1,0 +1,21 @@
+{
+    "name": "AXS.Core",
+    "rootNamespace": "AXS.Core",
+    "references": [
+        "AXS.Core.Utilities",
+        "UniTask",
+        "UniTask.Addressables",
+        "UnityEngine.UI",
+        "Unity.Addressables",
+        "Unity.ResourceManager"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
