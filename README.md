@@ -67,6 +67,11 @@ graph TD
 com.axs.core/
 ├── package.json                                      # UPMパッケージ定義・依存関係マニフェスト
 ├── README.md                                         # 本ドキュメント（設計・機能リファレンス）
+├── AGENTS.md                                         # AIエージェント向け常時適用ルール・設計制約
+├── .agents/                                          # AIエージェント用スキル格納フォルダ（Unityからは無視される）
+│   └── skills/
+│       ├── add-framework-feature/SKILL.md            # 新機能追加時のレイヤー選定・.meta生成・検証手順
+│       └── release-upm-version/SKILL.md              # バージョン更新・.meta監査・GitタグPush手順
 └── Runtime/
     ├── Utilities/                                    # 【Layer 0】純粋ユーティリティ群
     │   ├── AXS.Core.Utilities.asmdef                 # Layer 0 アセンブリ定義（外部依存なし）
